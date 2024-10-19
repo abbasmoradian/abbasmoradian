@@ -101,15 +101,42 @@ return MathMin;
 
 ///قسمت 6 نمرین در منزل:کاربر 5 عدد را وارد نماید و باید برسی نمایید که کدام
 ///کوچکتر است و عدد کوچکتر را باید برگرداند
-Console.WriteLine("please enter num1");
-Console.ReadLine();
-Console.WriteLine("please enter num2");
-Console.ReadLine()
-Console.WriteLine("please enter num3")
-Console.ReadLine()///ناقص
-///قسمت 7 تمرین در منزل :متدی برای دنباله های حسابی داشته باشید که کاربر
-///مشخص کند تا چند رقم باید پیش بروید
+Console.WriteLine("please enter num1,num2,num3,num4,num5");
+int Console.ReadLine();
 
+///عدد را از 0 تا 10 شروع کند 
+Public static int main(String[]args);
+{
+ for(0 = i;10>i;i*2);
+  {
+   Console.WriteLine($"for loop{i}");
+    continue;
+  }
+}
 
-///متدی برای دنباله فیبو ناچی داشته باشید
+ Public static int main(String[]args);
 
+ for(;;);
+ {
+ Console.WriteLine("please enter your PhoneNumber");
+ String PhoneNumber =  Console.ReadLine();
+
+ if(PhoneNumber.Length == 11 && PhoneNumber.Startswith("0"));
+ {
+  Console.WriteLine("thank you!");
+   break;
+ }
+ else;
+ {
+   Console.WriteLine("Please enter valid Phone Number");
+ }
+}
+///متدی برا ی دنباله های حسابی داشته باشید که کاربر مشخص کند تا چند رقم باید پیش برود
+
+Public static int main(Number);
+
+for(i=2;i<numb;i+4);
+{
+    Console.WriteLine($"please enter one {2<numb}");
+    int Number=Console.ReadLine(i);
+}
