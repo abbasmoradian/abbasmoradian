@@ -99,8 +99,8 @@ int Console.ReadLine();
 int MathMin(num1,num2);
 return MathMin;
 
-///قسمت 6 نمرین در منزل:کاربر 5 عدد را وارد نماید و باید برسی نمایید که کدام
-///کوچکتر است و عدد کوچکتر را باید برگرداند
+// قسمت 6 نمرین در منزل:کاربر 5 عدد را وارد نماید و باید برسی نمایید که کدام
+// کوچکتر است و عدد کوچکتر را باید برگرداند
 Console.WriteLine("please enter num1,num2,num3,num4,num5");
 int Console.ReadLine();
 
@@ -140,3 +140,23 @@ for(i=2;i<numb;i+4);
     Console.WriteLine($"please enter one {2<numb}");
     int Number=Console.ReadLine(i);
 }
+
+
+
+//تمرین سر کلاس جلسه ی 6
+
+
+do
+{
+    Console.WriteLine("please enter your PhoneNumber");
+    String phoneNumber =  Console.ReadLine();
+    phoneNumber.Length == 11 && phoneNumber.Startswith("0");
+    {
+    Console.WriteLine($"thank you,Your PhoneNumber is{phoneNumber}");
+    }
+
+}Wile(true);
+
+if bool isMale = Console.ReadLine() ? true:false;
+///فرمت درستش
+bool isMale = Console.ReadLine() == "M" ? true : false;
